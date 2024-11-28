@@ -38,7 +38,7 @@ function createFetch(data$: Observable<Response>) {
             acc[key] = value;
             return acc;
           },
-          {} as Record<string, string>
+          {} as Record<string, string>,
         );
         // Return both body and headers
         return { body, headers };
