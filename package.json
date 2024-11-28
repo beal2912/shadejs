@@ -1,5 +1,9 @@
 {
   "name": "@beal2912/shadejs",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "The Typescript SDK for Shade Protocol",
   "version": "1.5.10",
   "author": "Secure Secrets",
